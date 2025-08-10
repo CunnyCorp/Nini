@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "ninisc",
+  "version": "${version}",
+  "name": "NiniSC",
+  "description": "A silly addon for Shondo Client",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/ninisc/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "shondo": [
+      "org.shondo.ninisc.NiniSC"
+    ]
+  },
+  "mixins": [
+    "ninisc.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
