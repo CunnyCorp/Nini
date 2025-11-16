@@ -1,21 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "ninisc",
+  "id": "nini",
   "version": "${version}",
-  "name": "NiniSC",
-  "description": "A silly addon for Shondo Client",
+  "name": "Nini",
+  "description": "A silly addon for Psyop",
   "authors": [],
   "contact": {},
   "license": "GPL-3.0",
-  "icon": "assets/ninisc/icon.png",
   "environment": "client",
   "entrypoints": {
-    "shondo": [
-      "org.shondo.ninisc.NiniSC"
+    "psyop": [
+      "org.shondo.nini.Nini"
     ]
   },
   "mixins": [
-    "ninisc.mixins.json"
+    "nini.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
